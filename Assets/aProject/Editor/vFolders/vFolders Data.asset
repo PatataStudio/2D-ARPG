@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
+  m_Name: vFolders Data
+  m_EditorClassIdentifier: 
+  folderDatasByGuid:
+    keys:
+    - 00000000000000001000000000000000
+    - cd88f170b69db3848aef295787c93d36
+    - d0e098f15c6ed9145aaa1c2d43ffdc26
+    - 868bcc607da87c34b815359c9aef61d8
+    - 15f7a5d54e917ff44a918fb2fe3facf8
+    - 1b4b445758005b94b8522b928d8d804c
+    - 5f4c51b9bd0eae742af183ac2b9288de
+    - a7bd28e1730ebfb4cb136ed12157b701
+    - c7dda2690729f764fbf113c35db922b3
+    - 0220aab0833d04faeb927d84ca6cc40c
+    - e8309fbf943bd5644acdb2d0cf3b2e1d
+    - ee8b37f1beb54034c9c7ed1ec2b97854
+    values:
+    - guid: 00000000000000001000000000000000
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: cd88f170b69db3848aef295787c93d36
+      iColor: 10
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: d0e098f15c6ed9145aaa1c2d43ffdc26
+      iColor: 1
+      autoIcon: 
+      customIcon: AudioSource Icon
+      autoIconDirty: 0
+    - guid: 868bcc607da87c34b815359c9aef61d8
+      iColor: 10
+      autoIcon: 
+      customIcon: TextAsset Icon
+      autoIconDirty: 0
+    - guid: 15f7a5d54e917ff44a918fb2fe3facf8
+      iColor: 6
+      autoIcon: 
+      customIcon: AssemblyDefinitionAsset Icon
+      autoIconDirty: 0
+    - guid: 1b4b445758005b94b8522b928d8d804c
+      iColor: 5
+      autoIcon: 
+      customIcon: Prefab Icon
+      autoIconDirty: 0
+    - guid: 5f4c51b9bd0eae742af183ac2b9288de
+      iColor: 4
+      autoIcon: ScriptableObject Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: a7bd28e1730ebfb4cb136ed12157b701
+      iColor: 0
+      autoIcon: SceneAsset Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: c7dda2690729f764fbf113c35db922b3
+      iColor: 4
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 0220aab0833d04faeb927d84ca6cc40c
+      iColor: 0
+      autoIcon: 
+      customIcon: AudioMixerController Icon
+      autoIconDirty: 0
+    - guid: e8309fbf943bd5644acdb2d0cf3b2e1d
+      iColor: 9
+      autoIcon: 
+      customIcon: RawImage Icon
+      autoIconDirty: 0
+    - guid: ee8b37f1beb54034c9c7ed1ec2b97854
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
