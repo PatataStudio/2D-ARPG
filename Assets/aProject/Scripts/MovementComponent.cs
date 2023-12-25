@@ -2,15 +2,15 @@ using UnityEngine;
 
 namespace PatataStudio
 {
-	[RequireComponent(typeof(InputControllerBase))]
+	[RequireComponent(typeof(IInputController))]
 	public class MovementComponent : MonoBehaviour
 	{
 		[SerializeField] private StatBase moveSpeed;
-		private InputControllerBase inputController;
+		private IInputController inputController;
 
 		private void Start()
 		{
-			inputController = gameObject.GetComponent<InputControllerBase>();
+			inputController = gameObject.GetComponent<IInputController>();
 		}
 
 		private void Update()

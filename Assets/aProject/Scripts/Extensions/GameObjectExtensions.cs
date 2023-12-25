@@ -39,6 +39,15 @@ namespace PatataStudio.Utils.Extensions
 		public static T OrNull<T>(this T obj) where T : Object => obj ? obj : null;
 
 		/// <summary>
+		/// This method is used to hide the GameObject in the Hierarchy view.
+		/// </summary>
+		/// <param name="gameObject"></param>
+		public static void HideInHierarchy(this GameObject gameObject)
+		{
+			gameObject.hideFlags = HideFlags.HideInHierarchy;
+		}
+
+		/// <summary>
 		/// Destroys all children of the game object
 		/// </summary>
 		/// <param name="gameObject">GameObject whose children are to be destroyed.</param>

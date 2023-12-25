@@ -2,7 +2,7 @@
 
 namespace PatataStudio
 {
-	public class PlayerController : InputControllerBase
+	public class PlayerController : MonoBehaviour, IInputController
 	{
 
 	}

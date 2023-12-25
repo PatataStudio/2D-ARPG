@@ -15,6 +15,7 @@ MonoBehaviour:
   sceneDatasByGuid:
     keys:
     - 8c9cfa26abfee488c85f1582747f6a02
+    - 
     values:
     - goDatasByGlobalId:
         keys:
@@ -27,6 +28,9 @@ MonoBehaviour:
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1684826756-0
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-2053952641-0
         - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-369504573-0
+        - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1177610080-0
+        - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1649516436-0
+        - GlobalObjectId_V1-2-8c9cfa26abfee488c85f1582747f6a02-1646987604-0
         values:
         - iColor: 0
           icon: Camera Icon
@@ -46,8 +50,14 @@ MonoBehaviour:
           icon: Folder Icon
         - iColor: 8
           icon: Folder Icon
+        - iColor: 0
+          icon: CapsuleCollider Icon
+        - iColor: 0
+          icon: Canvas Icon
+        - iColor: 0
+          icon: Settings Icon
       goDatasByInstanceId:
-        keys: 906e0000766e0000a66e0000a26e0000bc6e0000826e00009e6e0000b86e0000726e0000
+        keys: 906e0000766e0000a66e0000a26e0000bc6e0000826e00009e6e0000b86e0000726e0000986e00000ef5ffffbe40ffff
         values:
         - iColor: 0
           icon: Camera Icon
@@ -67,3 +77,15 @@ MonoBehaviour:
           icon: Folder Icon
         - iColor: 8
           icon: Folder Icon
+        - iColor: 0
+          icon: CapsuleCollider Icon
+        - iColor: 0
+          icon: Canvas Icon
+        - iColor: 0
+          icon: Settings Icon
+    - goDatasByGlobalId:
+        keys: []
+        values: []
+      goDatasByInstanceId:
+        keys: 
+        values: []
