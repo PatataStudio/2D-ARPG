@@ -1,26 +1,22 @@
+using PatataStudio.Utils.Extensions;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace PatataStudio
 {
-	[RequireComponent(typeof(IInputController))]
 	public class MovementComponent : MonoBehaviour
 	{
 		[SerializeField] private StatBase moveSpeed;
-		private IInputController inputController;
+		private Rigidbody2D rb2D;
 
 		private void Start()
 		{
-			inputController = gameObject.GetComponent<IInputController>();
+			rb2D = gameObject.GetOrAddComponent<Rigidbody2D>();
 		}
 
-		private void Update()
+		public void Move(Vector2 movement)
 		{
-
-		}
-
-		private void FixedUpdate()
-		{
-
+			rb2D.transform.Translate(movement * moveSpeed.Current * Time.deltaTime);
 		}
 
 		private void OnValidate()

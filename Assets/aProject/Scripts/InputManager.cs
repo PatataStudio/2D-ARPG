@@ -1,28 +1,14 @@
+using PatataStudio.Utils;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace PatataStudio.Input
 {
 	[RequireComponent(typeof(PlayerInput))]
-	public class InputManager : MonoBehaviour
+	public class InputManager : Singleton<InputManager>
 	{
-		public static InputManager Instance;
-
 		public Vector2 Movement {  get; private set; }
 		public Vector2 MousePosition { get; private set; }
-
-		private void Awake()
-		{
-			if(Instance == null)
-			{
-				Instance = this;
-				DontDestroyOnLoad(this);
-			}
-			else
-			{
-				Destroy(this);
-			}
-		}
 
 		public void OnMove(InputValue inputValue)
 		{
@@ -45,7 +31,7 @@ namespace PatataStudio.Input
 		}
 		private void SetCursorState(bool newState)
 		{
-			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
+			Cursor.lockState = newState ? CursorLockMode.Confined : CursorLockMode.None;
 		}
 
 		private void OnApplicationFocus(bool focus)
