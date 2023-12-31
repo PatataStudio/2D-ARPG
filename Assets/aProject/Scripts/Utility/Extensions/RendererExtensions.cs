@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace PatataStudio.Utils
+namespace PatataStudio.Utils.Extensions
 {
 	public static class RendererExtensions
 	{

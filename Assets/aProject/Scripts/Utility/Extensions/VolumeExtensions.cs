@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace PatataStudio.Utils
+namespace PatataStudio.Utils.Extensions
 {
 	public static class VolumeExtensions
 	{

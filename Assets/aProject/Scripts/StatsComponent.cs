@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace PatataStudio
+namespace PatataStudio.ARPG.Entity
 {
 	public class StatsComponent : MonoBehaviour
 	{

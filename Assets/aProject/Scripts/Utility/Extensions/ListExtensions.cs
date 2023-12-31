@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace PatataStudio.Utils
+namespace PatataStudio.Utils.Extensions
 { 
 	public static class ListExtensions
 	{

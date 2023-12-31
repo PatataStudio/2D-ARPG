@@ -1,7 +1,7 @@
 ﻿using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace PatataStudio
+namespace PatataStudio.ARPG.Entity
 {
 	[System.Serializable]
 	public struct StatBase

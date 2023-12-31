@@ -1,4 +1,4 @@
-namespace PatataStudio
+namespace PatataStudio.Input
 {
 	public interface IInputController { }
 }

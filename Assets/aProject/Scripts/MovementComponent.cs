@@ -1,8 +1,7 @@
 using PatataStudio.Utils.Extensions;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-namespace PatataStudio
+namespace PatataStudio.ARPG.Entity
 {
 	public class MovementComponent : MonoBehaviour
 	{

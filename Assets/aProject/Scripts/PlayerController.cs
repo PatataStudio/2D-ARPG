@@ -2,7 +2,7 @@
 using PatataStudio.Utils.Extensions;
 using UnityEngine;
 
-namespace PatataStudio.Player
+namespace PatataStudio.ARPG.Entity
 {
 	[RequireComponent(typeof(MovementComponent))]
 	public class PlayerController : MonoBehaviour, IInputController
