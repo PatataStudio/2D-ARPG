@@ -11,7 +11,7 @@ namespace PatataStudio.ARPG.Entity
 
 		private void Start()
 		{
-			movementComponent = gameObject.GetOrAddComponent<MovementComponent>();
+			movementComponent = gameObject.GetOrAdd<MovementComponent>();
 		}
 
 		private void FixedUpdate()

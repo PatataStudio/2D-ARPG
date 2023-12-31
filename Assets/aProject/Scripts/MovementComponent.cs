@@ -10,7 +10,7 @@ namespace PatataStudio.ARPG.Entity
 
 		private void Start()
 		{
-			rb2D = gameObject.GetOrAddComponent<Rigidbody2D>();
+			rb2D = gameObject.GetOrAdd<Rigidbody2D>();
 		}
 
 		public void Move(Vector2 movement)
